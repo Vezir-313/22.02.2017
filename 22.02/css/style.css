@@ -1,0 +1,288 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	padding-top: 40px;
+	height: 100px;
+	border-top: 2px solid red;
+	display: flex;
+
+	align-content: flex-end;
+}
+
+#header img{
+	width: auto;
+}
+#header .menu{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	
+}
+
+#header .sosialIcon{
+
+    text-align: center;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#header .sosialIcon i{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	color: white;
+	background: lightgray;
+	line-height: 30px;
+
+}
+
+#header .nav ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+	font-family: arial;
+}
+
+#header .nav ul a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#header .nav ul a:first-child{
+	color: lightgray;
+}	
+
+#header .nav ul a:hover{
+	color: lightgray;
+
+}	
+
+/*        end  header  */
+
+
+/*   start  slider  */
+
+#slider{
+	
+	height: 500px;
+}
+
+
+/*   end slider   */
+
+
+/*   start  feature   */
+#feature{
+	font-family: arial;
+}
+#feature .wrapper{
+	margin-top: 50px ;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#feature .wrapper div{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+#feature .wrapper  div i{
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	background: lightgray;
+	line-height: 80px;
+	text-align: center;
+	font-size: 45px;
+}
+#feature .wrapper div h1{
+	margin: 5px;
+	color: #313131;
+	text-align: center;
+}
+
+#feature .wrapper div p{
+	font-size: 12px;
+	text-align: center;
+}
+/*   end  feature   */
+
+
+/*    start content  */
+#content{
+	
+	font-family: arial;
+}
+
+#content .wrapper {
+ 	border-top: 0.5px solid lightgray;	
+}
+
+#content .wrapper .conHeader {
+ border-top: 1px solid lightgray;
+ border-bottom:2px solid lightgray;
+text-align: center;
+}
+
+#content .wrapper .conHeader h3{
+	margin-top: 20px;
+
+}	
+
+#content .wrapper .conHeader h1{
+	margin-top: 0;
+	padding-top: 0;
+
+}	
+
+
+.conPortfolio .row div{
+	padding: 0 ;
+	margin: 0;
+}
+
+
+
+
+.conAbout{
+	margin-top: 40px;
+}
+.conAbout h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+
+.aboutItem1 {
+	font-size: 12px;
+}
+
+.aboutItem1 div i{
+	color: black;
+	margin-right: 5px;
+}
+
+.aboutItem1 div p{
+	color: darkgray ;
+}
+
+
+.aboutItem2 .dataLog{
+	font-size: 12px;
+	width: 80px;
+	height:80px;
+	background-color: lightgray;
+	border-radius: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+
+.dataLog p{
+	margin-top: 20px;
+
+}
+
+.aboutrow h3{
+	text-transform: uppercase;
+	color: red;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+.aboutrow {
+	padding: 0;
+	margin: 0;
+}
+.aboutrow span{
+	font-size: 12px;
+	color: lightgrey;
+	padding: 0;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.aboutrow p{
+	font-size: 12px;
+
+}
+
+.aboutrow a{
+	text-decoration: none;
+	color: red;
+
+}
+
+.conBlogs {
+	margin: 100px 0;
+
+
+}
+.conBlogs h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+} 
+
+.blog{
+	display: flex;
+	justify-content: space-between;
+}
+
+.blogrow{
+	margin-top: 20px;
+	font-size: 12px;
+}
+.blogrow div{
+	margin:0;
+	padding: 0;
+}
+.blogrow h1{
+	margin: 10px 0;
+	color: red;
+
+}
+
+.blogrow span{
+	color: darkgray;
+}	
+
+
+/*     end  content   */
+
+
+/*  start   conatcts   */
+#contact{
+	display: flex;
+	justify-content: space-between;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#contact h2 {
+	color: #313131;
+    font-size: 21px;
+    background: none;
+    font-weight: 800;
+}
+
+.touch input{
+	border-radius: 5px;
+	background: lightgray;
+	margin-bottom: 8px;
+}
+/*   end    contacts     */
